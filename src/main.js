@@ -5,7 +5,7 @@ import { localize, setLocale } from '@vee-validate/i18n';
 // 匯入 vee-validate 繁體中文語系檔案
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json';
 // 匯入 vee-validate 相關規則
-import rules from '@vee-validate/rules';
+import * as rules from '@vee-validate/rules';
 import { createPinia } from 'pinia';
 // 匯入 vee-validate 主套件
 import {
