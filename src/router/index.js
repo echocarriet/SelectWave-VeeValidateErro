@@ -26,11 +26,6 @@ const routes = [
         name: 'Terms',
         component: () => import('../views/TermsView.vue'),
       },
-      {
-        path: '/form',
-        name: 'Form',
-        component: () => import('../views/FormView.vue'),
-      },
     ],
   },
   {
